@@ -1,0 +1,19 @@
+<div class="card border-info">
+    <div class="card-body">
+      <h4 class="card-title">Users</h4>
+      <table class="table table-hover table-striped">
+          <thead>
+              <tr>
+                  <th scope="col">Id</th>
+                  <th scope="col">Title</th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr *ngFor="let u of users">
+                  <td>{{ u.Id }}</td>
+                  <td>{{ u.Title }}</td>
+              </tr>
+          </tbody>
+      </table>
+  </div>
+  </div>
